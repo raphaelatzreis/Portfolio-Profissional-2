@@ -15,8 +15,6 @@ A página funciona como um portfólio pessoal e acadêmico, apresentando informa
 * HTML5
 * CSS3
 * JavaScript
-* Git
-* GitHub
 * YouTube Embed
 
 ## Funcionalidades
