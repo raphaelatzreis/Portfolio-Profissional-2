@@ -327,7 +327,6 @@ main {
     background-color: #000;
 }
 
-/* Mantém compatibilidade caso algum vídeo local seja usado futuramente */
 .video-container video {
     display: block;
     width: 100%;
