@@ -1,4 +1,4 @@
-# Portfolio Profissional - P2
+# Portfolio Profissional 
 
 Portfólio profissional desenvolvido como projeto para a disciplina de Desenvolvimento Web, com o objetivo de aplicar conceitos de **HTML**, **CSS** e **JavaScript** em uma página interativa, responsiva e visualmente organizada.
 
