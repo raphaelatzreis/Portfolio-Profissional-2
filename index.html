@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="pag1.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFÓLIO - RAPHAELA REIS</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="hero">
+            <p class="tagline">Portfólio Profissional</p>
+
+            <h1>Raphaela Reis</h1>
+
+            <p class="subtitle">
+                Estudante de Engenharia de Software | Gerenciamento de Projetos | Desenvolvimento Full-Stack
+            </p>
+
+            <button id="btnTema" class="btn-primary">
+                Alternar modo visual
+            </button>
+
+            <div class="profile-section">
+                <div class="img-container">
+                    <img id="img1" src="midias/fotoperfil.jpg" alt="Foto de perfil de Raphaela Reis">
+                    <img id="img-hover" src="midias/horror.jpg" alt="Imagem alternativa de perfil">
+                </div>
+
+                <div class="profile-content">
+                    <audio class="music-player" controls loop>
+                        <source src="midias/amazonia-gojira.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+
+                    <nav class="contact-area">
+                        <h2>Contato</h2>
+
+                        <ul class="nav-links">
+                            <li>
+                                <a class="linksnav" 
+                                    href="https://mail.google.com/mail/?view=cm&fs=1&to=raphaelatzreis@gmail.com&su=Contato%20pelo%20portf%C3%B3lio&body=Ol%C3%A1%2C%20Raphaela%21%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20falar%20sobre%3A"
+                                    target="_blank"
+                                    rel="external">
+                                        Enviar e-mail
+                                </a>
+                            </li>
+                            <li>
+                                <a class="linksnav" href="https://linktr.ee/raphaelatzreis" target="_blank" rel="external">
+                                    Redes sociais
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main>
+
+            <section class="section destaque-profissional">
+                <h3>Painel profissional</h3>
+
+                <div class="status-grid">
+                    <div class="status-card">
+                        <span class="status-numero">2029</span>
+                        <p>Previsão de conclusão</p>
+                    </div>
+
+                    <div class="status-card">
+                        <span class="status-numero">Full-Stack</span>
+                        <p>Área de formação</p>
+                    </div>
+
+                    <div class="status-card">
+                        <span class="status-numero">JavaScript</span>
+                        <p>Foco atual em desenvolvimento web</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="sections-container">
+                <section class="section">
+                    <h3>Sobre mim</h3>
+
+                    <p>
+                        Tenho 23 anos, sou ex-professora de inglês, natural de Minas Gerais e estudante
+                        de Engenharia de Software, com previsão de conclusão em 2029.
+                    </p>
+
+                    <p>
+                        Tenho interesse em desenvolvimento Full-Stack, gerenciamento de projetos,
+                        documentação, organização de sistemas e criação de soluções funcionais.
+                    </p>
+
+                    <p>
+                        Atualmente, desenvolvo projetos acadêmicos e práticos utilizando HTML, CSS,
+                        JavaScript, Python, Programação Orientada a Objetos e conceitos de engenharia de software.
+                    </p>
+                </section>
+
+                <section class="section">
+                    <h3>Mais</h3>
+
+                    <p>
+                        Este é o amor da minha vida, o nome dela é Pretinha.
+                        Ela se foi no dia 24 de junho de 2024.
+                    </p>
+
+                    <img id="pretinha" src="midias/pretinha.png" alt="Pretinha">
+                </section>
+            </div>
+
+            <section class="section">
+                <h3>Vídeo de apresentação</h3>
+
+                <p>
+                    Este vídeo apresenta o objetivo do portfólio, sua identidade visual e os recursos
+                    interativos desenvolvidos com JavaScript.
+                </p>
+
+                <div class="video-container">
+                    <video controls poster="midias/matrix.jpg?v=2">
+                        <source src="midias/video-portfolio.mp4?v=2" type="video/mp4">
+                        Seu navegador não suporta a reprodução de vídeo.
+                    </video>
+                </div>
+            </section>
+
+            <section class="section">
+                <h3>Interesses</h3>
+
+                <p>
+                    Clique nos filtros abaixo para visualizar diferentes áreas de interesse.
+                </p>
+
+                <div class="filter-buttons">
+                    <button class="btn-filtro ativo" data-filtro="todos">Todos</button>
+                    <button class="btn-filtro" data-filtro="programacao">Programação</button>
+                    <button class="btn-filtro" data-filtro="gestao">Gestão</button>
+                    <button class="btn-filtro" data-filtro="web">Web</button>
+                </div>
+
+                <div class="skills-container">
+                    <span class="skill" data-categoria="programacao">Python</span>
+                    <span class="skill" data-categoria="web">JavaScript</span>
+                    <span class="skill" data-categoria="web">Node.js</span>
+                    <span class="skill" data-categoria="web">HTML5</span>
+                    <span class="skill" data-categoria="web">CSS3</span>
+                    <span class="skill" data-categoria="gestao">Gerenciamento de Projetos</span>
+                </div>
+            </section>
+
+            <section class="section">
+                <h3>Projetos</h3>
+
+                <div class="projects-grid">
+
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h4>Sistema Multiplataforma de Achados e Perdidos</h4>
+                            <span class="project-status">Em andamento</span>
+                        </div>
+
+                        <p>
+                            Desenvolvimento de um sistema web para gestão e devolução de itens perdidos
+                            em instituições fechadas, onde a frequência e/ou entrada e saída pode ser
+                            controlada e monitorada.
+                        </p>
+
+                        <p>
+                            O projeto conta com proposta de sistema anti-trolls e documentação de transações
+                            realizadas por QR Code.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Projeto acadêmico</span>
+                            <span>Web</span>
+                            <span>Documentação</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h4>Sistema de Gerenciamento para Clínicas Médicas</h4>
+                            <span class="project-status">Python</span>
+                        </div>
+
+                        <p>
+                            Sistema desenvolvido em Python com Programação Orientada a Objetos e princípios
+                            SOLID, voltado para a organização de clínicas médicas.
+                        </p>
+
+                        <p>
+                            O projeto utiliza interface interativa no terminal com a biblioteca Rich,
+                            permitindo gerenciar pacientes, médicos, consultas e receituários.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>POO</span>
+                            <span>SOLID</span>
+                            <span>Rich</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h4>Sistema de Notificações Multiplataforma</h4>
+                            <span class="project-status">Python</span>
+                        </div>
+
+                        <p>
+                            Sistema desenvolvido como projeto prático em sala de aula, sob orientação do
+                            Professor Tiago Castro.
+                        </p>
+
+                        <p>
+                            O projeto explora conceitos de Programação Orientada a Objetos, incluindo
+                            Dependency Inversion Principle, Single Responsibility Principle e uso de
+                            interfaces com ABC.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>POO</span>
+                            <span>ABC</span>
+                            <span>SOLID</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h4>Batalha no Terminal: RPG em Python</h4>
+                            <span class="project-status">Jogo</span>
+                        </div>
+
+                        <p>
+                            Mini jogo de batalha RPG no terminal desenvolvido em Python.
+                        </p>
+
+                        <p>
+                            O projeto foca na aplicação prática dos pilares da Programação Orientada a Objetos,
+                            como herança, polimorfismo e encapsulamento.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>POO</span>
+                            <span>Herança</span>
+                            <span>Polimorfismo</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h4>Simulador de Rotas EPT Maricá</h4>
+                            <span class="project-status">Dijkstra</span>
+                        </div>
+
+                        <p>
+                            Simulador de rotas para o sistema de transporte EPT Maricá utilizando Python,
+                            grafos e o Algoritmo de Dijkstra.
+                        </p>
+
+                        <p>
+                            Projeto focado em Estruturas de Dados, com visualização gráfica desenvolvida
+                            com Matplotlib e NetworkX para gerenciamento dinâmico de trajetos.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Grafos</span>
+                            <span>Dijkstra</span>
+                            <span>NetworkX</span>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+            <section class="section">
+                <h3>Quiz rápido</h3>
+
+                <p>
+                    Qual área combina mais com o meu perfil profissional?
+                </p>
+
+                <div class="quiz-container">
+                    <button class="btn-quiz" data-resposta="Desenvolvimento Front-End combina com a criação da interface visual e experiência do usuário.">
+                        Front-End
+                    </button>
+
+                    <button class="btn-quiz" data-resposta="Back-End combina com regras de negócio, banco de dados, APIs e estrutura interna dos sistemas.">
+                        Back-End
+                    </button>
+
+                    <button class="btn-quiz" data-resposta="Gerenciamento de Projetos combina com organização, planejamento, documentação e liderança de processos.">
+                        Gestão de Projetos
+                    </button>
+                </div>
+
+                <p id="resultadoQuiz" class="resultado" aria-live="polite">
+                    Escolha uma opção para ver a resposta.
+                </p>
+            </section>
+
+            <section class="section formulario-section">
+                <h3>Formulário de contato profissional</h3>
+
+                <p>
+                    Simulação de formulário para contato profissional, orçamento ou parceria acadêmica.
+                    O envio é validado com JavaScript e o resultado aparece na tela sem recarregar a página.
+                </p>
+
+                <form id="formContato" novalidate>
+                    <label for="nome">Nome completo</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome completo">
+                    <span class="mensagem-erro" id="erroNome"></span>
+
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="exemplo@email.com">
+                    <span class="mensagem-erro" id="erroEmail"></span>
+
+                    <label for="telefone">Telefone</label>
+                    <input type="text" id="telefone" placeholder="(21) 99999-9999">
+                    <span class="mensagem-erro" id="erroTelefone"></span>
+
+                    <label for="tipoContato">Tipo de solicitação</label>
+                    <select id="tipoContato">
+                        <option value="">Selecione uma opção</option>
+                        <option value="projeto">Projeto Web</option>
+                        <option value="academico">Projeto Acadêmico</option>
+                        <option value="parceria">Parceria</option>
+                    </select>
+                    <span class="mensagem-erro" id="erroTipoContato"></span>
+
+                    <div id="campoDinamico"></div>
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" placeholder="Descreva brevemente sua solicitação"></textarea>
+                    <span class="mensagem-erro" id="erroMensagem"></span>
+
+                    <button type="submit" class="btn-primary">
+                        Enviar solicitação
+                    </button>
+                </form>
+
+                <div id="resumoSolicitacao" class="resumo-solicitacao" aria-live="polite">
+                    Nenhuma solicitação enviada ainda.
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Raphaela Reis - Desenvolvido com HTML, CSS e JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
