@@ -1,7 +1,6 @@
 /*
-    SCRIPT DO PORTFÓLIO
-
-    Requisitos atendidos:
+    Sumário do funcionamento:
+    
     1. Eventos JavaScript;
     2. Formulário dinâmico;
     3. Validação de dados;
@@ -11,9 +10,7 @@
 
 document.addEventListener("DOMContentLoaded", function () {
 
-    /* =========================================================
-       1. Alternância de modo visual
-    ========================================================= */
+    /* 1. Alternar de modo visual (modo escuro) */
 
     const btnTema = document.getElementById("btnTema");
 
@@ -28,9 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 
-    /* =========================================================
-       2. Filtro de interesses
-    ========================================================= */
+    /* 2. Filtro de interesses*/
 
     const botoesFiltro = document.querySelectorAll(".btn-filtro");
     const skills = document.querySelectorAll(".skill");
@@ -58,9 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 
-    /* =========================================================
-       3. Quiz interativo
-    ========================================================= */
+    /*  3. Quiz interativo */
 
     const botoesQuiz = document.querySelectorAll(".btn-quiz");
     const resultadoQuiz = document.getElementById("resultadoQuiz");
@@ -73,9 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 
-    /* =========================================================
-       4. Formulário dinâmico
-    ========================================================= */
+    /*4. Formulário dinâmico */
 
     const tipoContato = document.getElementById("tipoContato");
     const campoDinamico = document.getElementById("campoDinamico");
@@ -106,9 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 
-    /* =========================================================
-       5. Validação do formulário
-    ========================================================= */
+    /* 5. Validação do formulário*/
 
     const formContato = document.getElementById("formContato");
 
@@ -191,9 +180,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 
-    /* =========================================================
-       6. Funções auxiliares
-    ========================================================= */
+    /*6. Funções auxiliares*/
 
     function validarEmail(emailDigitado) {
         const padraoEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
