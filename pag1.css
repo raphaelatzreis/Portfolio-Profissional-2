@@ -327,9 +327,22 @@ main {
     background-color: #000;
 }
 
+/* Mantém compatibilidade caso algum vídeo local seja usado futuramente */
 .video-container video {
     display: block;
     width: 100%;
+}
+
+/* Vídeo incorporado do YouTube */
+.youtube-video {
+    aspect-ratio: 16 / 9;
+}
+
+.youtube-video iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
 }
 
 /* Botões */
